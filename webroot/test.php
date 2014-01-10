@@ -18,7 +18,7 @@
 set_time_limit(0);
 ini_set('display_errors', 1);
 
-require dirname(__DIR__) . '/App/Config/bootstrap.php';
+require dirname(__DIR__) . '/src/Config/bootstrap.php';
 
 use Cake\Core\Configure;
 use Cake\TestSuite\TestSuiteDispatcher;

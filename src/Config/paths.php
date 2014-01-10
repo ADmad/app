@@ -24,7 +24,7 @@ define('DS', DIRECTORY_SEPARATOR);
  */
 
 /**
- * The full path to the directory which holds "App", WITHOUT a trailing DS.
+ * The full path to the directory which holds "src", WITHOUT a trailing DS.
  */
 define('ROOT', dirname(dirname(__DIR__)));
 
@@ -51,7 +51,7 @@ define('WWW_ROOT', ROOT . DS . WEBROOT_DIR . DS);
 /**
  * Path to the tests directory.
  */
-define('TESTS', ROOT . DS . 'Test' . DS);
+define('TESTS', ROOT . DS . 'tests' . DS);
 
 /**
  * Path to the temporary files directory.

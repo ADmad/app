@@ -39,7 +39,7 @@ $config = [
 		'namespace' => 'App',
 		'encoding' => 'UTF-8',
 		'base' => false,
-		'dir' => 'App',
+		'dir' => APP_DIR,
 		'webroot' => 'webroot',
 		'www_root' => WWW_ROOT,
 		// 'baseUrl' => env('SCRIPT_NAME'),
@@ -48,7 +48,7 @@ $config = [
 		'cssBaseUrl' => 'css/',
 		'jsBaseUrl' => 'js/',
 		'paths' => [
-			'plugins' => [ROOT . '/Plugin/'],
+			'plugins' => [ROOT . '/plugins/'],
 			'views' => [APP . 'View/'],
 		],
 	],
